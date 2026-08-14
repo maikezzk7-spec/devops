@@ -1,10 +1,10 @@
-// Crie uma classe publica chamada Main
+// Crie uma classe pública chamada Main
 
-public class Main{
-    //Crie função principal da classe Main
+public class Main {
 
-    public static void main (String[]args){
-        System.out.println("Olá, Devops !");
-        System.out.println("Pipeline executada com sucesso !");
+    // Função principal da classe Main
+    public static void main(String[] args) {
+        System.out.println("Olá, DevOps!");
+        System.out.println("Pipeline executada com sucesso!");
     }
 }
