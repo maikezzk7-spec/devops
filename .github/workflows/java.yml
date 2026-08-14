@@ -32,9 +32,11 @@ jobs:
 
       # Compila o programa
       - name: Compilar
+        working-directory: aula02devops
         run: javac Main.java
 
       # Executa o programa
       - name: Executar
+        working-directory: aula02devops
         run: java Main
 
